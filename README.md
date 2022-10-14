@@ -7,6 +7,7 @@ Simple flask website
   app.py
   
   
+```python
     from flask import *
     app = Flask(__name__)
 
@@ -20,7 +21,7 @@ Simple flask website
     if __name__ == '__main__':
     app.run(debug = True)
     
-    
+ ```
     
    message.html
    
